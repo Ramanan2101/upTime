@@ -1,0 +1,57 @@
+.website{
+    background-color: var(--bg-primary);
+    width: 100vw;
+    height: auto;
+}
+.container{
+    font-family: Roboto, Arial, sans-serif;
+    position: relative;
+    display: flex;
+    padding: 0 4rem;
+}
+span{
+    color: var(--text-highlight);
+}
+.left-content{
+    width: 50%;
+    padding: 5rem 0rem;
+}
+.left-content h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+.left-content p{
+    font-size: 24px;
+    color: #fff;
+}
+.website .btn{
+    background-color: rgb(101, 210, 101);
+    width: fit-content;
+    height: auto;
+    padding: 1rem 2.5rem;
+    border-radius: 25px;
+    margin: 1rem 0;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+}
+.right-content{
+    width: 50%;
+    display: grid;
+    place-items: center;
+}
+.circle{
+    display: grid;
+    align-items: center;
+    background: #19273b;
+    opacity: 0.5;
+    border-radius: 50%;
+    height: 25rem;
+    width: 25rem;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,29 @@
+.CJ3{
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+.CJ3 .cr1{
+    top: -10px;
+    left: 50px;
+}
+.CJ3 .cr2{
+    top: -10px;
+    left: 20px;
+}
+.CJ3 .cr3{
+    left: 100px;
+}
+.CJ3 .sec2 .img-container{
+    height: 380px;
+}
+.CJ3 .cnt2{
+    padding: 0 3rem 0 9rem;
+}
+.CJ3 .sec3 .img-container{
+    width: 620px;
+    height: 400px;
+    background-color: #fff;
+    padding: 4rem;
+    box-shadow: 1px 1px 5px lightgray;
+    margin-left: 10rem;
+}
