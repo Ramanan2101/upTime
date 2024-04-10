@@ -105,6 +105,21 @@
     justify-content: center;
     flex-direction: column;
 }
+.hov{
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    font-size: 18px;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .cd{
+    display: none;
+}
+.card:hover .hov{
+    display: block;
+}   
 .card img{
     width: 50px;
     height: 50px;
@@ -116,7 +131,7 @@
     margin-top: 15px;
     font-weight: bold;
 }
-.card6 > div{
+.multiLogo{
     display: flex;
     height: 48px;
     width: 150px;
@@ -126,6 +141,9 @@
 .card6 img{
     width: 25px;
     margin: 0 5px;
+}
+.card6 h3{
+    margin-left: 20px;
 }
 .sec3{
     display: flex;

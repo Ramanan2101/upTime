@@ -1,39 +1,46 @@
 import React from 'react'
-import './sections.css';
-import monitor from '../../../../assets/monitor-intervals.svg'
-import mail from '../../../../assets/integration-email-dark.svg'
-import sms from '../../../../assets/integration-sms-dark.svg'
-import phone from '../../../../assets/integration-voice-dark.svg'
-import slack from '../../../../assets/integration-slack.svg'
-import discord from '../../../../assets/integration-discord.svg'
-import zapier from '../../../../assets/integration-zapier.svg'
-import telegram from '../../../../assets/integration-telegram.svg'
-import appPreview from '../../../../assets/app-preview.png'
-import playstore from '../../../../assets/google-playstore-badge.svg'
-import appstore from '../../../../assets/appstore-badge.svg'
+import portType from '../../../assets/port-types.svg';
+import monitorssl from '../../../assets/monitor-ssl-certificate.svg';
+import certificateExpiry from '../../../assets/ssl-certificate-expiry-notification.svg';
+import mail from '../../../assets/integration-email-dark.svg'
+import sms from '../../../assets/integration-sms-dark.svg'
+import phone from '../../../assets/integration-voice-dark.svg'
+import slack from '../../../assets/integration-slack.svg'
+import discord from '../../../assets/integration-discord.svg'
+import zapier from '../../../assets/integration-zapier.svg'
+import telegram from '../../../assets/integration-telegram.svg'
 
-const Sections = () => {
+const SSL3 = () => {
   return (
-    <div className='sections'>
+    <div className='ssl3 CJ3'>
         <section className='sec1'>
             <div className="img-sec">
                 <div className="circle cr1"></div>
                 <div className="img-container">
-                    <img src={monitor} alt="monitor" />
+                    <img src={monitorssl} alt="monitor-ssl-certificate" />
                 </div> 
             </div>
             <div className="content cnt1">
-                <h2>Sleep well thanks to our reliable <span>30-sec checks</span>.</h2>
-                <p>Your website can be checked every 30 seconds so you can get an instant notification in case things go wrong.</p>
+                <h2>Get alerts about SSL <span>certificate errors</span>.</h2>
+                <p>Set up an SSL monitoring within the main HTTPS monitoring of your website and receive notifications regarding any SSL certificate errors automatically.</p>
             </div>
         </section>
         <section className='sec2'>
             <div className="content cnt2">
-                <h2>Choose your preferred type of <span>notifications</span>.</h2>
-                <p>Get instant alerts via email, SMS, voice call or through one of many integrations (such as Slack, Zapier, Splunk, etc.)</p>
+                <h2>Make sure your <span>email service</span> runs smoothly.</h2>
+                <p>Set up a POP3, IMAP and SMTP port monitoring and know about any issues with your essential email services.</p>
             </div>
             <div className="img-sec">
                 <div className="circle cr2"></div>
+                <div className="img-container">
+                    <img src={certificateExpiry} alt="ssl-certificate-expiry-notification" />
+                </div> 
+            </div>
+            
+        </section>
+        <section className='sec3'>
+            <div className="img-sec">
+                <div className="circle cr3"></div>
                 <div className="cards">
                     <div className="card card1">
                         <div className="cd">
@@ -96,25 +103,13 @@ const Sections = () => {
                     </div>
                 </div> 
             </div>
-        </section>
-        <section className='sec3'>
-            <div className="img-sec">
-                <div className="circle cr3"></div>
-                <div className="img-container">
-                    <img src={appPreview} alt="monitor" />
-                </div> 
-            </div>
             <div className="content cnt3">
-                <h2>Stay notified on the go with our <span>Android/iOS app</span>.</h2>
-                <p>Get instant notifications, manage monitors and check your uptime statistics on the go with our slick mobile app.</p>
-                <div className="appStore">
-                    <a href=""><img src={playstore} alt="" /></a>
-                    <a href=""><img src={appstore} alt="" /></a>
-                </div>
+                <h2>Choose your preferred type of <span>notifications</span>.</h2>
+                <p>Get instant alerts via email, SMS, voice call or through one of many integrations (such as Slack, Zapier, Splunk, etc.)</p>
             </div>
         </section>
     </div>
   )
 }
 
-export default Sections
+export default SSL3

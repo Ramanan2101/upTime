@@ -60,35 +60,65 @@ const PM3 = () => {
                 <div className="circle cr2"></div>
                 <div className="cards">
                     <div className="card card1">
-                        <img src={mail} alt="mail logo" />
-                        <h3>E-mail</h3>
+                        <div className="cd">
+                            <img src={mail} alt="mail logo" />
+                            <h3>E-mail</h3>
+                        </div>
+                        <div className="hov">
+                            <p>E-mail is a basic form of outages notifications. Get alerted!</p>
+                        </div>
                     </div>
                     <div className="card card2">
-                        <img src={sms} alt="sms logo" />
-                        <h3>SMS</h3>
+                        <div className="cd">
+                            <img src={sms} alt="sms logo" />
+                            <h3>SMS</h3>
+                        </div>
+                        <div className="hov">
+                            <p>Get alerted instantly by SMS, even when you are offline!</p>
+                        </div>
                     </div>
                     <div className="card card3">
-                        <img src={phone} alt="phone logo" />
-                        <h3>Voice call</h3>
+                        <div className="cd">
+                            <img src={phone} alt="phone logo" />
+                            <h3>Voice call</h3>
+                        </div>
+                        <div className="hov">
+                            <p>Get an automatic voice call alert whenever your website is down.</p>
+                        </div>
                     </div>
                     <div className="card card4">
-                        <img src={slack} alt="slack logo" />
-                        <h3>Slack</h3>
+                        <div className="cd">
+                            <img src={slack} alt="slack logo" />
+                            <h3>Slack</h3>
+                        </div>
+                        <div className="hov">
+                            Slack messages are a great way to inform the entire team of a downtime.
+                        </div>
                     </div>
                     <div className="card card5">
-                        <img src={discord} alt="discord logo" />
-                        <h3>Discord</h3>
+                        <div className="cd">
+                            <img src={discord} alt="discord logo" />
+                            <h3>Discord</h3>
+                        </div>
+                        <div className="hov">
+                            <p>Get important monitor status updates in your Discord messages.</p>
+                        </div>
                     </div>
                     <div className="card card6">
-                        <div>
-                            <img src={zapier} alt="zapier logo" />
-                            <img src={telegram} alt="telegram logo" />
-                            <img src={discord} alt="discord logo" />
-                            <p>...</p>
+                        <div className="cd">
+                            <div className='multiLogo'>
+                                <img src={zapier} alt="zapier logo" />
+                                <img src={telegram} alt="telegram logo" />
+                                <img src={discord} alt="discord logo" />
+                                <p>...</p>
+                            </div>
+                            <h3>and 10 more</h3>
                         </div>
-                        <h3>and 10 more</h3>
+                        <div className="hov">
+                            <p>We got integration for every popular service.</p>
+                        </div>
                     </div>
-                </div> 
+                </div>  
             </div>
             
         </section>
