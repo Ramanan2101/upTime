@@ -13,6 +13,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 0 5rem;
+    animation: slideInFromBottom 0.5s ease-out;
 }
 .grd{
     padding-left: 2rem;

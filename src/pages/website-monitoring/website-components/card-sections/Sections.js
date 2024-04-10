@@ -13,12 +13,13 @@ import playstore from '../../../../assets/google-playstore-badge.svg'
 import appstore from '../../../../assets/appstore-badge.svg'
 
 const Sections = () => {
+
   return (
     <div className='sections'>
         <section className='sec1'>
             <div className="img-sec">
                 <div className="circle cr1"></div>
-                <div className="img-container">
+                <div className='img-container'>
                     <img src={monitor} alt="monitor" />
                 </div> 
             </div>
@@ -100,7 +101,7 @@ const Sections = () => {
         <section className='sec3'>
             <div className="img-sec">
                 <div className="circle cr3"></div>
-                <div className="img-container">
+                <div className='img-container'>
                     <img src={appPreview} alt="monitor" />
                 </div> 
             </div>

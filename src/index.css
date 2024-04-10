@@ -7,6 +7,15 @@ body {
   --bg-primary : rgba(19,25,37,255);
   --text-highlight : #3bd671;
 }
-
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
 

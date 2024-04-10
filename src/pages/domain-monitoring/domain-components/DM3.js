@@ -1,5 +1,5 @@
 import React from 'react'
-import monitorssl from '../../../assets/monitor-ssl-certificate.svg';
+import monitordomain from '../../../assets/monitor-domain-expiration.svg';
 import certificateExpiry from '../../../assets/ssl-certificate-expiry-notification.svg';
 import mail from '../../../assets/integration-email-dark.svg'
 import sms from '../../../assets/integration-sms-dark.svg'
@@ -9,25 +9,26 @@ import discord from '../../../assets/integration-discord.svg'
 import zapier from '../../../assets/integration-zapier.svg'
 import telegram from '../../../assets/integration-telegram.svg'
 
-const SSL3 = () => {
+
+const DM3 = () => {
   return (
-    <div className='ssl3 CJ3'>
+    <div className='dm3 CJ3'>
         <section className='sec1'>
             <div className="img-sec">
                 <div className="circle cr1"></div>
                 <div className="img-container">
-                    <img src={monitorssl} alt="monitor-ssl-certificate" />
+                    <img src={monitordomain} alt="domain-monitoring" />
                 </div> 
             </div>
             <div className="content cnt1">
-                <h2>Get alerts about SSL <span>certificate errors</span>.</h2>
-                <p>Set up an SSL monitoring within the main HTTPS monitoring of your website and receive notifications regarding any SSL certificate errors automatically.</p>
+                <h2><span>Prevent</span> incidents caused by expired domain.</h2>
+                <p>Take your website monitoring to the next level with additional domain expiration monitoring. Keep track of your domain expiration and prevent domain expiry issues with automatic notifications.</p>
             </div>
         </section>
         <section className='sec2'>
             <div className="content cnt2">
-                <h2>Make sure your <span>email service</span> runs smoothly.</h2>
-                <p>Set up a POP3, IMAP and SMTP port monitoring and know about any issues with your essential email services.</p>
+                <h2>Get <span>notified</span> about the domain expiration date.</h2>
+                <p>Use domain monitoring to receive alerts 30, 14, 7, and 1 day before your domain name expiration, and view the domain expiration date anytime in your dashboard.</p>
             </div>
             <div className="img-sec">
                 <div className="circle cr2"></div>
@@ -111,4 +112,4 @@ const SSL3 = () => {
   )
 }
 
-export default SSL3
+export default DM3

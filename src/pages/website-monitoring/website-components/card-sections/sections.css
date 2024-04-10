@@ -45,6 +45,7 @@
     position: absolute;
     background-color: #fff;
     padding: 2.5rem;
+    animation: slideInFromBottom 0.5s ease-out;
 }
 .img-container img{
     object-fit: cover;
@@ -66,7 +67,7 @@
 }
 .content p{
     font-size: 22px;
-    font-weight: lighter;
+    font-weight: normal;
     color: rgb(19, 26, 38);
 }
 .sec2{
@@ -93,6 +94,8 @@
     grid-template-columns: auto auto auto;
     gap: 5px;
     place-items: center;
+    animation: slideInFromBottom 0.5s ease-out;
+
 }
 .sec2 .card{
     width: 170px;
@@ -163,6 +166,8 @@
     margin-left: 12rem;
     border-radius: 5px;
     position: absolute;
+        animation: slideInFromBottom 0.5s ease-out;
+
 }
 .img-container img{
     object-fit: contain;

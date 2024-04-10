@@ -1,29 +1,29 @@
-.ssl3 .sec2 .img-container{
+.dm3 .sec2 .img-container{
     background-color: transparent;
     box-shadow: none;
 }
-.ssl3 .sec2 .circle{
+.dm3 .sec2 .circle{
     width: 300px;
     height: 300px;
 }
-.ssl3 .sec2 .cr2{
+.dm3 .sec2 .cr2{
     top: 50px;
     left: 20px;
     margin-left: 0;
 }
-.ssl3 .sec2{
+.dm3 .sec2{
     margin: 5rem 2.5rem;
 }
-.ssl3 .sec3{
+.dm3 .sec3{
     display: flex;
     width: 100%;
 }
-.ssl3 .sec3 > .img-sec{
+.dm3 .sec3 > .img-sec{
     display: flex;
     justify-content: flex-start;
     padding-left: 2rem;
 }
-.ssl3 .sec3 .cards{
+.dm3 .sec3 .cards{
     width: 600px;
     height: 350px;
     margin-left: 8rem;
@@ -34,7 +34,7 @@
     gap: 5px;
     place-items: center;
 }
-.ssl3 .sec3 .card{
+.dm3 .sec3 .card{
     width: 170px;
     height: 170px;
     background-color: #fff;

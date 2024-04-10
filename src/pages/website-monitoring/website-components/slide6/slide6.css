@@ -15,6 +15,7 @@
     justify-content: space-evenly;
     width: 100%;
     margin: 2.5rem 0;
+    animation: slideInFromBottom 0.5s ease-out;
 }
 .container-6 .cards > .card{
     width: 160px;
@@ -54,7 +55,8 @@ hr{
     padding: 2rem;
     border-radius: 5px;
     box-shadow: 1px 1px 5px lightgray;
-    margin-left: 0rem;
+    margin-left: 3.5rem;
+    animation: slideInFromBottom 0.5s ease-out;
 }
 .sec2 .ct2 a{
     color: var(--text-highlight);
